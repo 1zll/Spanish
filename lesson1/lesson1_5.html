@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
@@ -29,7 +29,7 @@
     <!-- JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"
     ></script>
     <script
@@ -37,14 +37,14 @@
       integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
       crossorigin="anonymous"
     ></script>
-    <script src="lesson1_playaudio.js"></script>
+    <script src="../playaudio.js"></script>
   </head>
   <body>
     <!-- Header -->
     <header class="navbar gray">
       <div class="container-fluid">
         <span class="navbar-brand d-flex align-items-center">
-          <img src="img/Logo2.png" width="48" height="48" alt="Logo" />
+          <img src="../img/Logo2.png" width="48" height="48" alt="Logo" />
           <p class="sitename mb-0 ms-2">¡Hola Español!</p>
         </span>
         <button
@@ -79,81 +79,67 @@
       <nav class="offcanvas-body bg-body-tertiary">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="home.html">ホーム</a>
+            <a class="nav-link" href="../home.html">ホーム</a>
           </li>
         </ul>
       </nav>
     </aside>
 
     <!-- Main Content -->
-    <section class="m-5">
-      <div class="my-4">
-        <h2 class="border-bottom">Lessión1_4</h2>
-      </div>
+    <main class="m-5">
+      <header class="my-4">
+        <h2 class="border-bottom">Lessión1_5</h2>
+      </header>
 
-      <!-- Pronunciation Section -->
-      <div class="d-flex align-items-center gap-2 border-bottom">
-        <i class="bi bi-journal-check fs-4"></i>
-        <h4 class="mb-0">音節</h4>
-      </div>
+      <section>
+        <div class="d-flex align-items-center gap-2 border-bottom">
+          <i class="bi bi-journal-check fs-4"></i>
+          <h4 class="mb-0">アクセントの位置</h4>
+        </div>
+        <p class="my-4">
+          各単語のどこにアクセントがあるのかは以下の手順に沿って判断すればよい。
+        </p>
 
-      <div class="my-4">
-        <div class="card my-2">
-          <div class="card-body">
-            <p>
-              <span class="fontblue fw-bold">音節</span
-              >：ひとまとまりに発音できる最小の単位で、母音を核にした<span
-                class="fontblue fw-bold"
-                >｢(子音)+母音+(子音)｣</span
-              >を基本とする。<br />
-              ただし、二重母音は1つの母音として、二重子音および<span
-                class="fw-bold"
-                >ch,ll,rr</span
-              >は1つの子音とみなす。
-            </p>
+        <figure class="text-center my-4">
+          <img
+            src="../img/accent.png"
+            class="img-fluid"
+            alt="アクセントの位置"
+          />
+          <figcaption class="blockquote-footer mt-2">
+            アクセントの位置を判断するための一般的なルール
+          </figcaption>
+        </figure>
+
+        <p class="mt-4">
+          アクセントの有無によって、意味の違いが生じるものがある
+        </p>
+
+        <div class="d-flex gap-4 flex-wrap">
+          <div class="d-flex flex-column">
+            <div class="p-2">t<span class="fw-bold">é</span> (茶)</div>
+            <div class="p-2">t<span class="fw-bold">e</span> (君を/に)</div>
           </div>
-        </div>
-        <div class="my-4">
-          <p>①母音に挟まれた1個の子音は、その前に音節の切れ目が来る。</p>
-          <div class="container text-start">
-            <div class="row row-cols-4">
-              <div class="col">ca・<span class="fw-bold">s</span>a</div>
-              <div class="col">a・<span class="fw-bold">m</span>or</div>
-              <div class="col">li・<span class="fw-bold">br</span>o</div>
-              <div class="col">pe・<span class="fw-bold">rr</span>o</div>
+          <div class="d-flex flex-column">
+            <div class="p-2">
+              cu<span class="fw-bold">á</span>ndo
+              <span class="badge bg-secondary">疑問詞</span>&nbsp;(いつ)
+            </div>
+            <div class="p-2">
+              cu<span class="fw-bold">a</span>ndo
+              <span class="badge bg-secondary">接続詞</span>&nbsp;(...するとき)
+            </div>
+          </div>
+          <div class="d-flex flex-column">
+            <div class="p-2"><span class="fw-bold">é</span>l (彼は/が)</div>
+            <div class="p-2">
+              <span class="fw-bold">e</span>l
+              <span class="badge bg-secondary">定冠詞</span>&nbsp;(男性単数形)
             </div>
           </div>
         </div>
-        <div class="my-4">
-          <p>②母音に挟まれた2個の子音は、その間に音節の切れ目が来る。</p>
-          <div class="container text-start">
-            <div class="row row-cols-4">
-              <div class="col">pue<span class="fw-bold">r・t</span>a</div>
-              <div class="col">ge<span class="fw-bold">n・t</span>e</div>
-              <div class="col">bla<span class="fw-bold">n・c</span>o</div>
-              <div class="col">E<span class="fw-bold">s・p</span>a・ña</div>
-            </div>
-          </div>
-        </div>
-        <div class="my-4">
-          <p>
-            ③母音に挟まれた3個の子音は、その最後の子音の前に音節の切れ目が来る。
-          </p>
-          <div class="container text-start">
-            <div class="row row-cols-4">
-              <div class="col">co<span class="fw-bold">ns・s</span>an・te</div>
-              <div class="col">i<span class="fw-bold">ns・t</span>in・to</div>
-              <div class="col">
-                o<span class="fw-bold">bs・t</span>á・cu・lo
-              </div>
-              <div class="col">
-                i<span class="fw-bold">ns・tr</span>u・men・to
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Navigation -->
     <nav
@@ -161,7 +147,7 @@
       aria-label="レッスンナビゲーション"
     >
       <a
-        href="lesson1_3.html"
+        href="lesson1_4.html"
         id="complete-btn"
         class="btn btn-outline-success my-4"
         aria-label="前のレッスンへ戻る"
@@ -170,10 +156,10 @@
         Back
       </a>
       <a
-        href="lesson1_5.html"
+        href="lesson1_test.html"
         id="complete-btn"
         class="btn btn-outline-success my-4"
-        aria-label="次のレッスンへ進む"
+        aria-label="次のテストへ進む"
       >
         Next
         <i class="bi bi-arrow-right"></i>
