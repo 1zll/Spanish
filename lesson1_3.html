@@ -1,0 +1,379 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>スペイン語学習サイト</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+    <script src="lesson1_playaudio.js"></script>
+  </head>
+  <body>
+    <header class="navbar gray">
+      <div class="container-fluid">
+        <span class="navbar-brand d-flex align-items-center">
+          <img src="img/Logo2.png" width="48" height="48" alt="Logo" />
+          <p class="sitename mb-0 ms-2">¡Hola Español!</p>
+        </span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          style="background-color: #f8f9fa"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </header>
+    <aside
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <header class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">メニュー</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </header>
+      <nav class="offcanvas-body bg-body-tertiary">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">ホーム</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <section class="m-5">
+      <div class="my-4">
+        <h2 class="border-bottom">Lessión1_3</h2>
+        <p>1_2の続きです！頑張りましょう！</p>
+      </div>
+      <div class="d-flex align-items-center gap-2 border-bottom">
+        <i class="bi bi-journal-check fs-4"></i>
+        <h4 class="mb-0">発音</h4>
+      </div>
+      <div class="my-4">
+        <p class="fw-bold">二重母音</p>
+        <div class="card my-2">
+          <div class="card-body">
+            <p>
+              <span class="fontblue fw-bold">二重母音</span
+              >：隣り合う2つの母音を1つのまとまった母音とみなすもの。一息に切らずに発音。
+            </p>
+          </div>
+        </div>
+        <div class="container-fluid mt-4">
+          <div class="fw-bold text-start mb-2">①｢強母音+弱母音｣</div>
+          <ul class="list-unstyled ps-4">
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">ai(ay)</span>
+              <span class="col-6">b<span class="fw-bold">ai</span>・te</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">ei(ey)</span>
+              <span class="col-6">r<span class="fw-bold">ei</span>・na</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">oi(oy)</span>
+              <span class="col-6">b<span class="fw-bold">oi</span>・na</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">au</span>
+              <span class="col-6"><span class="fw-bold">au</span>・la</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">eu</span>
+              <span class="col-6"><span class="fw-bold">eu</span>・ro</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">ou</span>
+              <span class="col-6">b<span class="fw-bold">ou</span></span>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid mt-4">
+          <div class="fw-bold text-start mb-2">②｢弱母音+強母音｣</div>
+          <ul class="list-unstyled ps-4">
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">ia</span>
+              <span class="col-6">p<span class="fw-bold">ia</span>・no</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">ie</span>
+              <span class="col-6">f<span class="fw-bold">ie</span>s・ta</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">io</span>
+              <span class="col-6">me・d<span class="fw-bold">io</span></span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">ua</span>
+              <span class="col-6">a・g<span class="fw-bold">ua</span></span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">ue</span>
+              <span class="col-6">p<span class="fw-bold">ue</span>r・ta</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">uo</span>
+              <span class="col-6"
+                >an・ti・g<span class="fw-bold">uo</span></span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid mt-4">
+          <div class="fw-bold text-start mb-2">③｢弱母音+弱母音｣</div>
+          <ul class="list-unstyled ps-4">
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">iu</span>
+              <span class="col-6">c<span class="fw-bold">iu</span>・dad</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">ui(uy)</span>
+              <span class="col-6">j<span class="fw-bold">ui</span>・cio</span>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid mt-4">
+          <div class="fw-bold text-start mb-2">④｢強母音+強母音｣</div>
+          <p class="ps-3">｢母音接続｣：各々異なる2つの母音とみなされる。</p>
+          <ul class="list-unstyled ps-4">
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">a・e</span>
+              <span class="col-6">p<span class="fw-bold">a・e</span>・lla</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">a・o</span>
+              <span class="col-6">ca・c<span class="fw-bold">a・o</span></span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">e・a</span>
+              <span class="col-6">á・r<span class="fw-bold">e・a</span></span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">e・o</span>
+              <span class="col-6">co・rr<span class="fw-bold">e・o</span></span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">o・a</span>
+              <span class="col-6">t<span class="fw-bold">o・a</span>・lla</span>
+            </li>
+            <li class="d-flex border-bottom py-2">
+              <span class="col-6 fw-bold">o・e</span>
+              <span class="col-6">p<span class="fw-bold">o・e</span>・ma</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="my-4">
+        <p class="fw-bold">二重子音</p>
+        <div class="card my-2">
+          <div class="card-body">
+            <p>
+              <span class="fontblue fw-bold">二重子音</span>：<span
+                class="fontblue fw-bold"
+                >｢p,b,t,d,c,g,f｣</span
+              >と<span class="fontblue fw-bold">｢l｣</span>または<span
+                class="fontblue fw-bold"
+                >｢r｣</span
+              >との組み合わせで、1つのまとまった子音とみなす。一息に切らずに発音する。
+            </p>
+            <p class="fontgray">※実際には、tl,dlの組み合わせは存在しない</p>
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">pl</div>
+          <div class="col-6 text-start"><span class="fw-bold">pl</span>an</div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">pr</div>
+          <div class="col-6 text-start">
+            <span class="fw-bold">pr</span>o・fe・sor
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">bl</div>
+          <div class="col-6 text-start">
+            <span class="fw-bold">bl</span>an・co
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">br</div>
+          <div class="col-6 text-start">
+            li・<span class="fw-bold">br</span>o
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">tr</div>
+          <div class="col-6 text-start"><span class="fw-bold">tr</span>es</div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">dr</div>
+          <div class="col-6 text-start">
+            pa・<span class="fw-bold">dr</span>e
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">cl</div>
+          <div class="col-6 text-start">
+            <span class="fw-bold">cl</span>i・ma
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">cr</div>
+          <div class="col-6 text-start">
+            <span class="fw-bold">cr</span>e・ma
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">gl</div>
+          <div class="col-6 text-start">
+            in・<span class="fw-bold">gl</span>és
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">gr</div>
+          <div class="col-6 text-start">
+            <span class="fw-bold">gr</span>u・po
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">fl</div>
+          <div class="col-6 text-start">
+            <span class="fw-bold">fl</span>a・men・co
+          </div>
+        </div>
+        <div class="d-flex border-bottom py-2 ps-4">
+          <div class="col-6 fw-bold text-start">fr</div>
+          <div class="col-6 text-start">
+            <span class="fw-bold">fr</span>u・ta
+          </div>
+        </div>
+      </div>
+      <div class="my-4">
+        <p class="fw-bold">二重子音</p>
+        <div class="card my-2">
+          <div class="card-body">
+            <p>
+              <span class="fontblue fw-bold">二重子音</span>：<span
+                class="fontblue fw-bold"
+                >｢p,b,t,d,c,g,f｣</span
+              >と<span class="fontblue fw-bold">｢l｣</span>または<span
+                class="fontblue fw-bold"
+                >｢r｣</span
+              >との組み合わせで、1つのまとまった子音とみなす。一息に切らずに発音する。
+            </p>
+            <p class="fontgray">※実際には、tl,dlの組み合わせは存在しない</p>
+          </div>
+        </div>
+        <ul class="list-group ps-4 list-group-flush">
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">pl</span>
+            <span class="col-6"><span class="fw-bold">pl</span>an</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">pr</span>
+            <span class="col-6"><span class="fw-bold">pr</span>o・fe・sor</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">bl</span>
+            <span class="col-6"><span class="fw-bold">bl</span>an・co</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">br</span>
+            <span class="col-6">li・<span class="fw-bold">br</span>o</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">tr</span>
+            <span class="col-6"><span class="fw-bold">tr</span>es</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">dr</span>
+            <span class="col-6">pa・<span class="fw-bold">dr</span>e</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">cl</span>
+            <span class="col-6"><span class="fw-bold">cl</span>i・ma</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">cr</span>
+            <span class="col-6"><span class="fw-bold">cr</span>e・ma</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">gl</span>
+            <span class="col-6">in・<span class="fw-bold">gl</span>és</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">gr</span>
+            <span class="col-6"><span class="fw-bold">gr</span>u・po</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">fl</span>
+            <span class="col-6"><span class="fw-bold">fl</span>a・men・co</span>
+          </li>
+          <li class="list-group-item d-flex border-bottom">
+            <span class="fw-bold col-6">fr</span>
+            <span class="col-6"><span class="fw-bold">fr</span>u・ta</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <nav
+      class="d-flex justify-content-between mx-5"
+      aria-label="レッスンナビゲーション"
+    >
+      <a
+        href="lesson1_2.html"
+        id="complete-btn"
+        class="btn btn-outline-success my-4"
+        aria-label="前のレッスンへ戻る"
+      >
+        <i class="bi bi-arrow-left"></i>
+        Back
+      </a>
+      <a
+        href="lesson1_4.html"
+        id="complete-btn"
+        class="btn btn-outline-success my-4"
+        aria-label="次のレッスンへ進む"
+      >
+        Next
+        <i class="bi bi-arrow-right"></i>
+      </a>
+    </nav>
+  </body>
+</html>
