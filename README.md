@@ -6,7 +6,7 @@
 
 # Link
 ↓このリンクをクリックすると見ることができます↓<br>
-**https://1zll.github.io/spanish/**
+****
 
 
 # 概要
